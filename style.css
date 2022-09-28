@@ -98,6 +98,11 @@ header .btn-header figure{
   border: 2px solid var(--primary);
 }
 
+header .btn-header figure:hover{
+  background-color: var(--primary);
+  transition: .2s;
+}
+
 header .btn-header figure img{
   padding: 11px;
 }
@@ -293,6 +298,12 @@ header .btn-header figure img{
   color: var(--text);
   font-size: 1.125rem;
   font-weight: 600;
+  transition: .3s ease 0s;
+}
+
+.sale-info a:hover{
+  background-color: var(--primary);
+  color: var(--white);
 }
 
 .sale-img{
@@ -328,6 +339,10 @@ header .btn-header figure img{
 
 .first-column{
   margin-bottom: 60px;
+}
+
+.arrival-product figure img{
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 
 .arrival-product .price{
@@ -479,12 +494,12 @@ footer{
   gap: 12px;
 }
 
-.footer-info ul a li{
+.footer-info ul li a{
   color: var(--textFooter);
   font-weight: 500;
 }
 
-.footer-info ul a li:hover{
+.footer-info ul li a:hover{
   color: var(--white);
   transition: .3s;
 }
@@ -527,3 +542,5 @@ footer{
   gap: 32px;
 }
 /*Fim Copyright*/
+
+/*Animações*/
