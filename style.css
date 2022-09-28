@@ -439,6 +439,7 @@ footer{
 .footer-content{
   padding: 60px 84px 34px 60px;
   display: flex;
+  justify-content: space-between;
 }
 
 .footer-left{
