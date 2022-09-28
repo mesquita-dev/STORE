@@ -10,7 +10,6 @@ The **STORE** project was a project in which I was able to deepen my knowledge i
 ## 🚀 Technologys and Tools
 - **HTML5**
 - **CSS3**
-- **JavaScript** (With the plugin: [SimpleAnime](https://github.com/origamid/simple-anime))
 - **Figma** (Link to project with Wireframe, Style Guide and Design: [Design](https://www.figma.com/file/T4yz0XXtxHqYIMjEEQBJIk/Shop-Store?node-id=34%3A184)
 - **UI Design**
 - **UX Design**
