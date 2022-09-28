@@ -1,0 +1,528 @@
+:root{
+  --bgSite: #fafafa;
+  --text: #000;
+  --textFooter: #747474;
+  --primary: #7C73E6;
+  --dec: #C4C1E0;
+  --white: #fff;
+  --colorSection: #ffe9e3;
+  --borderSearch: #dedede;
+  --fillSearch: #f0f0f0;
+  --bgFooter: #2b2b2b;
+  --decFooter: #464646;
+  --placeholderNews: #d7d7d7;
+}
+
+/*Reset*/
+* {
+  font-family: 'Red Hat Display', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+button, input {
+  border: 0;
+}
+button:focus, input:focus {
+  border: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+/*Fim Reset*/
+
+body{
+  background-color: var(--bgSite);
+}
+
+/*Header*/
+header{
+  display: flex;
+  margin: 24px 60px;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+header h1{
+  font-weight: 700;
+  color: var(--text);
+  text-transform: uppercase;
+  font-size: 4rem;
+}
+
+header form{
+  display: flex;
+}
+
+header form input{
+  background-color: var(--fillSearch);
+  border: 1px solid var(--borderSearch);
+  border-radius: 4px 0 0 4px;
+  width: 536px;
+  height: 48px;
+  padding: 12px;
+}
+
+header form button{
+  background-color: var(--primary);
+  border-radius: 0 4px 4px 0;
+}
+
+header form button img{
+  padding: 11px;
+}
+
+header .btn-header{
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+header .btn-header figure{
+  border-radius: 50%;
+  border: 2px solid var(--primary);
+}
+
+header .btn-header figure img{
+  padding: 11px;
+}
+
+.dec{
+  background: var(--dec);
+  height: 2px;
+  width: 100%;
+  display: block;
+}
+/*Fim Header*/
+
+/*Home*/
+.home{
+  display: flex;
+  justify-content: space-between;
+}
+
+.info-home{
+  margin-left: 60px;
+}
+
+.info-home h1{
+  margin-top: 158px;
+  font-weight: 700;
+  font-size: 3rem;
+  text-transform: uppercase;
+  letter-spacing: 0.014em;
+  color: var(--text);
+}
+
+.info-home p{
+  color: var(--text);
+  font-size: 1.125rem;
+  font-weight: 400;
+  margin-top: 36px;
+  margin-bottom: 60px;
+  max-width: 787px;
+}
+
+.info-home a{
+  background-color: var(--primary);
+  color: var(--white);
+  padding: 14px 20px;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.img-home figure{
+  margin: 70px 60px 0 0;
+  margin-right: 60px;
+}
+/*Fim Home*/
+
+/*Services*/
+.bg-services{
+  background-color: var(--colorSection);
+  margin-top: -130px;
+}
+
+.services{
+  margin-left: 60px;
+  margin-right: 190px;
+}
+
+.services h1{
+  font-weight: 700;
+  font-size: 3rem;
+  letter-spacing: 0.014em;
+  text-transform: uppercase;
+  color: var(--text);
+  padding-top: 60px;
+  margin-bottom: 12px;
+} 
+
+.services p{
+  font-weight: 400;
+  font-size: 1.125rem;
+  color: var(--text);
+}
+
+.icons-services{
+  display: flex;
+  margin-top: 70px;
+  padding-bottom: 60px;
+  justify-content: space-between;
+}
+
+.service-item h2{
+  font-weight: 500;
+  font-size: 1.5rem;
+  color: var(--text);
+  margin: 8px 0;
+}
+
+.service-item p{
+  font-weight: 400;
+  font-size: 1rem;
+  color: var(--text);
+}
+/*Fim Services*/
+
+/*Trendy*/
+.trendy{
+  margin: 0 145px 0 60px;
+}
+
+.trendy .trendy-title{
+  margin-top: 70px;
+  color: var(--text);
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.014em;
+  text-transform: uppercase;
+}
+
+.trendy-products{
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.trendy-products .price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.trendy-products .price h1{
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0.013em;
+  text-transform: uppercase;
+  margin: 12px 0 8px 0;
+  color: var(--text);
+}
+
+.trendy-products .price p{
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.trendy-products .price img{
+  border: 1px solid var(--dec);
+  padding: 12px;
+  border-radius: 50%;
+}
+/*Fim Trendy*/
+
+/*Sale*/
+.sale{
+  margin-top: 70px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.sale{
+  background-color: var(--colorSection);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.sale-info{
+  padding-left: 60px;
+}
+
+.sale-info h1{
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.014em;
+  text-transform: uppercase;
+  color: var(--text);
+  margin-bottom: 18px;
+}
+
+.sale-info p{
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: var(--text);
+  margin-bottom: 46px;
+}
+
+.sale-info a{
+  border: 1px solid var(--primary);
+  border-radius: 4px;
+  padding: 14px 20px;
+  text-transform: uppercase;
+  color: var(--text);
+  font-size: 1.125rem;
+  font-weight: 600;
+}
+
+.sale-img{
+  height: 100%;
+}
+
+.sale-img img{
+  height: 100%;
+  width: 100%;
+  display: unset;
+}
+/*Fim Sale*/
+
+/*Arrivals*/
+.arrivals{
+  margin: 0 145px 0 60px;
+}
+
+.arrivals .arrival-title{
+  margin: 70px 0 60px 0;
+  font-size: 3rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.014em;
+  color: var(--text);
+}
+
+.first-column, .second-column{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.first-column{
+  margin-bottom: 60px;
+}
+
+.arrival-product .price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 48px;
+}
+
+.arrival-product .price h1{
+  font-weight: 400;
+  font-size: 1.25rem;
+  letter-spacing: 0.013em;
+  text-transform: uppercase;
+  margin: 12px 0 8px 0;
+  color: var(--text);
+}
+
+.arrival-product .price p{
+  font-weight: 700;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  color: var(--text);
+}
+
+.arrival-product .price img{
+  border: 1px solid var(--dec);
+  padding: 12px;
+  border-radius: 50%;
+}
+
+.arrivals .btn{
+  text-align: center;
+}
+
+.arrivals .btn-arrival{
+  background: var(--primary);
+  border-radius: 4px;
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: var(--white);
+  padding: 14px 20px;
+}
+/*Fim Arrivals*/
+
+/*Newsletter*/
+.newsletter-bg{
+  background-color: var(--colorSection);
+  margin: 70px 0;
+}
+
+.newsletter{
+  text-align: center;
+}
+
+.newsletter h1{
+  padding-top: 60px;
+  margin-bottom: 16px;
+  color: var(--text);
+  text-transform: uppercase;
+  font-size: 3rem;
+  letter-spacing: 0.014em;
+  font-weight: 700;
+}
+
+.newsletter p{
+  margin-bottom: 24px;
+  font-weight: 400;
+  font-size: 1.25rem;
+  color: var(--text);
+}
+
+.newsletter form{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.newsletter form input{
+  background-color: var(--fillSearch);
+  border: 1px solid var(--borderSearch);
+  border-radius: 4px 0 0 4px;
+  width: 560px;
+  height: 53px;
+  padding: 12px;
+}
+
+.newsletter form button{
+  background-color: var(--primary);
+  color: var(--white);
+  text-transform: uppercase;
+  font-size: 1.125rem;
+  font-weight: 600;
+  padding: 14px 20px;
+  border-radius: 0 4px 4px 0;
+}
+
+.newsletter form input::placeholder{
+  color: var(--placeholderNews);
+  font-weight: 700;
+}
+
+/*Footer*/
+footer{
+  background-color: var(--bgFooter);
+}
+
+.footer-content{
+  padding: 60px 84px 34px 60px;
+  display: flex;
+}
+
+.footer-left{
+  margin-right: 160px;
+}
+
+.footer-content .footer-left h1{
+  color: var(--white);
+  font-size: 3rem;
+  font-weight: 700;
+  letter-spacing: 0.014em;
+  text-transform: uppercase;
+  margin-bottom: 8px;
+}
+
+.footer-content .footer-left p{
+  color: var(--textFooter);
+  max-width: 312px;
+  font-weight: 500;
+}
+
+.footer-info{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-info h2{
+  font-size: 1.5rem;
+  color: var(--white);
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+
+.footer-info ul{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.footer-info ul a li{
+  color: var(--textFooter);
+  font-weight: 500;
+}
+
+.footer-info ul a li:hover{
+  color: var(--white);
+  transition: .3s;
+}
+
+.footer-info .social-medias{
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  margin-top: 12px;
+}
+/*Fim Footer*/
+
+.dec-footer{
+  background-color: var(--decFooter);
+  height: 1px;
+  width: 100%;
+  display: block;
+}
+
+/*Copyright*/
+.copy{
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 60px;
+  align-items: center;
+}
+
+.copy p{
+  font-weight: 500;
+  color: var(--textFooter);
+}
+
+.copy a{
+  color: var(--white);
+  font-weight: 700;
+}
+
+.copy ul{
+  display: flex;
+  gap: 32px;
+}
+/*Fim Copyright*/
