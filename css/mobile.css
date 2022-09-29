@@ -85,7 +85,7 @@
   .trendy-products{
     margin-top: 30px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
     gap: 16px;
   }
   
@@ -139,7 +139,7 @@
   
   .arrivals-products{
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(186px, 1fr));
     gap: 16px;
     margin-bottom: 40px;
   }
