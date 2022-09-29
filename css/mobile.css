@@ -221,7 +221,7 @@
   .footer-info{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 84px;
+    gap: 16px;
   }
   
   .footer-info .social-medias{
