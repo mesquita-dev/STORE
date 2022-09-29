@@ -261,12 +261,7 @@ header .btn-header figure img{
   margin-top: 70px;
   display: grid;
   grid-template-columns: 1fr 1fr;
-}
-
-.sale{
   background-color: var(--colorSection);
-  display: grid;
-  grid-template-columns: 1fr 1fr;
   align-items: center;
 }
 
@@ -543,4 +538,3 @@ footer{
 }
 /*Fim Copyright*/
 
-/*Animações*/
